@@ -1,2 +1,4 @@
 # crashtestdummy
-Simple data generator in java
+Simple data generator library in java.
+Currently for Indonesia
+
