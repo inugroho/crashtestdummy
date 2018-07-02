@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 Isaac A. Nugroho
+ * Copyright 2018 Isaac A. Nugroho.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -41,9 +41,9 @@ public class EmailFactory {
       "_"
   };
 
-  public EmailFactory(FakerFactory factory, Gson gson) {
+  public EmailFactory(FakerFactory factory) {
     this.factory = factory;
-    this.gson = gson;
+    this.gson = factory.getGson();
   }
 
   private EmailDomainSeeder loadSeed(String locale) {

@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 Isaac A. Nugroho
+ * Copyright 2018 Isaac A. Nugroho.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,10 +17,7 @@ package io.github.inugroho.crashtestdummy;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import io.github.inugroho.crashtestdummy.component.DateFactory;
-import io.github.inugroho.crashtestdummy.component.EmailFactory;
-import io.github.inugroho.crashtestdummy.component.NameFactory;
-import io.github.inugroho.crashtestdummy.component.PersonFactory;
+import io.github.inugroho.crashtestdummy.component.*;
 import io.github.inugroho.crashtestdummy.util.ThreadedRandom;
 
 @SuppressWarnings("unused")
@@ -34,6 +31,7 @@ public class FakerFactory {
   private DateFactory dateFactory = null;
   private PersonFactory personFactory = null;
   private EmailFactory emailFactory = null;
+  private AddressFactory addressFactory = null;
 
   public FakerFactory() {
     this.locale = FakerConstants.DEFAULT_FAKER_LOCALE;
@@ -83,29 +81,39 @@ public class FakerFactory {
 
   public NameFactory getNameFactory() {
     if (nameFactory == null) {
-      nameFactory = new NameFactory(this, gson);
+      nameFactory = new NameFactory(this);
     }
     return nameFactory;
   }
 
   public DateFactory getDateFactory() {
     if (dateFactory == null) {
-      dateFactory = new DateFactory(this, gson);
+      dateFactory = new DateFactory(this);
     }
     return dateFactory;
   }
 
   public EmailFactory getEmailFactory() {
     if (emailFactory == null) {
-      emailFactory = new EmailFactory(this, gson);
+      emailFactory = new EmailFactory(this);
     }
     return emailFactory;
   }
 
   public PersonFactory getPersonFactory() {
     if (personFactory == null) {
-      personFactory = new PersonFactory(this, getNameFactory(), getDateFactory(), getEmailFactory());
+      personFactory = new PersonFactory(this);
     }
     return personFactory;
+  }
+
+  public AddressFactory getAddressFactory() {
+    if (addressFactory == null) {
+      addressFactory = new AddressFactory(this);
+    }
+    return addressFactory;
+  }
+  public Gson getGson() {
+    return this.gson;
   }
 }

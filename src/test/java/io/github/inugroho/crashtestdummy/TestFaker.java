@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 Isaac A. Nugroho
+ * Copyright 2018 Isaac A. Nugroho.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,9 +15,11 @@
  */
 package io.github.inugroho.crashtestdummy;
 
+import io.github.inugroho.crashtestdummy.component.AddressFactory;
 import io.github.inugroho.crashtestdummy.component.DateFactory;
 import io.github.inugroho.crashtestdummy.component.NameFactory;
 import io.github.inugroho.crashtestdummy.component.PersonFactory;
+import io.github.inugroho.crashtestdummy.domain.FakeAddress;
 import io.github.inugroho.crashtestdummy.domain.FakeName;
 import io.github.inugroho.crashtestdummy.domain.FakePerson;
 import org.junit.Assert;
@@ -53,7 +55,7 @@ public class TestFaker {
   }
 
   @Test
-  public void testSingleton() {
+  public void testSeed() {
     FakerFactory factory1 = new FakerFactory();
     FakerFactory factory2 = new FakerFactory();
 
@@ -74,8 +76,47 @@ public class TestFaker {
     FakeName.Gender[] allowed = { FakeName.Gender.MALE, FakeName.Gender.FEMALE };
     for (int i = 0; i < 100000; i++) {
       FakeName fakeName = nameFactory.generate();
+      System.out.println(fakeName.getFullName());
       assertThat(fakeName.getFirstName(), not(isEmptyOrNullString()));
       assertThat(fakeName.getGender(), isIn(allowed));
+    }
+  }
+
+  @Test
+  public void testFormattedNumber() {
+    FakerFactory factory = new FakerFactory("id_ID");
+    AddressFactory addressFactory = factory.getAddressFactory();
+    Pattern pattern = Pattern.compile("^\\d{2}-\\d{4}-\\d{8}-ABC-\\d{3}$");
+    String template = "##-####-########-ABC-###";
+    for (int i = 0; i < 100000; i++) {
+      String r = addressFactory.generateFormattedNumber(template);
+      System.out.println(r);
+      boolean found = pattern.matcher(r).find();
+      assertThat("Result comply format", found, is(Boolean.TRUE));
+    }
+  }
+
+  @Test
+  public void testPostalCode() {
+    FakerFactory factory = new FakerFactory("id_ID");
+    AddressFactory addressFactory = factory.getAddressFactory();
+    Pattern pattern = Pattern.compile("^[1-9]\\d{4}$");
+    String template = "#####";
+    for (int i = 0; i < 100000; i++) {
+      String r = addressFactory.generateFormattedNumber(template, 10000, 90000);
+      System.out.println(r);
+      boolean found = pattern.matcher(r).find();
+      assertThat("Result comply format", found, is(Boolean.TRUE));
+    }
+  }
+
+  @Test
+  public void testAddress() {
+    FakerFactory factory = new FakerFactory("id_ID");
+    AddressFactory addressFactory = factory.getAddressFactory();
+    for (int i = 0; i < 100000; i++) {
+      FakeAddress address = addressFactory.generate();
+      System.out.printf("%s %s %s, %s %n", address.getStreetAddress(), address.getCityName(), address.getZipCode(), address.getRegionName());
     }
   }
 

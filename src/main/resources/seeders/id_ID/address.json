@@ -1,0 +1,3344 @@
+{
+  "street_title": [
+    "JALAN",
+    "GANG",
+    "GG.",
+    "JL.",
+    "JLN."
+  ],
+  "street_prefix": [
+    "H.",
+    "KOL.",
+    "JEND.",
+    "KAPT."
+  ],
+  "street_name_suffix_1": [
+    "TENGAH",
+    "DALAM",
+    "BARAT",
+    "TIMUR",
+    "UTARA",
+    "SELATAN",
+    "WETAN",
+    "KULON"
+  ],
+  "street_name_suffix_2": [
+    "UTAMA",
+    "RAYA",
+    "BUNTU",
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "region_seed": [
+    {
+      "city_name": "BEKASI",
+      "region_name": "PROPINSI JAWA BARAT",
+      "region_code": "0102",
+      "zip_code_template": [
+        "17###"
+      ]
+    },
+    {
+      "city_name": "LEBAK",
+      "region_name": "PROVINSI BANTEN",
+      "region_code": "0201",
+      "zip_code_template": [
+        "42###"
+      ]
+    },
+    {
+      "city_name": "JAKARTA PUSAT",
+      "region_name": "DKI JAYA",
+      "region_code": "0391",
+      "zip_code_template": [
+        "10###"
+      ]
+    },
+    {
+      "city_name": "BANTUL",
+      "region_name": "D.I YOGYAKARTA",
+      "region_code": "0501",
+      "zip_code_template": [
+        "55###"
+      ]
+    },
+    {
+      "city_name": "SEMARANG",
+      "region_name": "PROV. JAWA TENGAH",
+      "region_code": "0901",
+      "zip_code_template": [
+        "50###"
+      ]
+    },
+    {
+      "city_name": "GRESIK",
+      "region_name": "PROV. JAWA TIMUR",
+      "region_code": "1201",
+      "zip_code_template": [
+        "61###"
+      ]
+    },
+    {
+      "city_name": "BENGKULU SELATAN",
+      "region_name": "PROVINSI BENGKULU",
+      "region_code": "2301",
+      "zip_code_template": [
+        "38###"
+      ]
+    },
+    {
+      "city_name": "BATANGHARI",
+      "region_name": "PROVINSI JAMBI",
+      "region_code": "3101",
+      "zip_code_template": [
+        "36###"
+      ]
+    },
+    {
+      "city_name": "ACEH BESAR",
+      "region_name": "PROVINSI NAD",
+      "region_code": "3201",
+      "zip_code_template": [
+        "23###"
+      ]
+    },
+    {
+      "city_name": "DELI SERDANG",
+      "region_name": "PROVINSI SUMATERA UTARA",
+      "region_code": "3301",
+      "zip_code_template": [
+        "20###"
+      ]
+    },
+    {
+      "city_name": "AGAM",
+      "region_name": "PROVINSI SUMATERA BARAT",
+      "region_code": "3401",
+      "zip_code_template": [
+        "26###"
+      ]
+    },
+    {
+      "city_name": "KAMPAR",
+      "region_name": "PROVINSI RIAU",
+      "region_code": "3501",
+      "zip_code_template": [
+        "28###"
+      ]
+    },
+    {
+      "city_name": "MUSI BANYUASIN",
+      "region_name": "PROVINSI SUMATERA SELATAN",
+      "region_code": "3606",
+      "zip_code_template": [
+        "30###"
+      ]
+    },
+    {
+      "city_name": "BANGKA",
+      "region_name": "PROVINSI KEP. BANGKA BELITUNG",
+      "region_code": "3701",
+      "zip_code_template": [
+        "33###"
+      ]
+    },
+    {
+      "city_name": "KARIMUN",
+      "region_name": "PROVINSI KEPULAUAN RIAU",
+      "region_code": "3801",
+      "zip_code_template": [
+        "29###"
+      ]
+    },
+    {
+      "city_name": "LAMPUNG SELATAN",
+      "region_name": "PROVINSI LAMPUNG",
+      "region_code": "3901",
+      "zip_code_template": [
+        "35###"
+      ]
+    },
+    {
+      "city_name": "BANJAR",
+      "region_name": "PROVINSI KALIMANTAN SELATAN",
+      "region_code": "5101",
+      "zip_code_template": [
+        "70###"
+      ]
+    },
+    {
+      "city_name": "PONTIANAK",
+      "region_name": "PROVINSI KALIMANTAN BARAT",
+      "region_code": "5301",
+      "zip_code_template": [
+        "78###"
+      ]
+    },
+    {
+      "city_name": "KUTAI KARTANEGARA",
+      "region_name": "PROVINSI KALIMANTAN TIMUR",
+      "region_code": "5401",
+      "zip_code_template": [
+        "75###"
+      ]
+    },
+    {
+      "city_name": "KAPUAS",
+      "region_name": "PROVINSI KALIMANTAN TENGAH",
+      "region_code": "5801",
+      "zip_code_template": [
+        "73###"
+      ]
+    },
+    {
+      "city_name": "DONGGALA",
+      "region_name": "PROVINSI SULAWESI TENGAH",
+      "region_code": "6001",
+      "zip_code_template": [
+        "94###"
+      ]
+    },
+    {
+      "city_name": "PINRANG",
+      "region_name": "PROVINSI SULAWESI SELATAN",
+      "region_code": "6101",
+      "zip_code_template": [
+        "91###"
+      ]
+    },
+    {
+      "city_name": "MINAHASA",
+      "region_name": "PROVINSI SULAWESI UTARA",
+      "region_code": "6202",
+      "zip_code_template": [
+        "95###"
+      ]
+    },
+    {
+      "city_name": "GORONTALO",
+      "region_name": "PROVINSI GORONTALO",
+      "region_code": "6301",
+      "zip_code_template": [
+        "96###"
+      ]
+    },
+    {
+      "city_name": "POLEWALI MANDAR",
+      "region_name": "PROVINSI SULAWESI BARAT",
+      "region_code": "6401",
+      "zip_code_template": [
+        "91###"
+      ]
+    },
+    {
+      "city_name": "BUTON",
+      "region_name": "PROVINSI SULAWESI TENGGARA",
+      "region_code": "6901",
+      "zip_code_template": [
+        "93###"
+      ]
+    },
+    {
+      "city_name": "LOMBOK BARAT",
+      "region_name": "PROVINSI NUSA TENGGARA BARAT",
+      "region_code": "7101",
+      "zip_code_template": [
+        "83###"
+      ]
+    },
+    {
+      "city_name": "BULELENG",
+      "region_name": "PROVINSI BALI",
+      "region_code": "7201",
+      "zip_code_template": [
+        "81###"
+      ]
+    },
+    {
+      "city_name": "KUPANG",
+      "region_name": "PROVINSI NUSA TENGGARA TIMUR",
+      "region_code": "7401",
+      "zip_code_template": [
+        "85###"
+      ]
+    },
+    {
+      "city_name": "MALUKU TENGAH",
+      "region_name": "PROVINSI MALUKU",
+      "region_code": "8101",
+      "zip_code_template": [
+        "97###"
+      ]
+    },
+    {
+      "city_name": "JAYAPURA",
+      "region_name": "PROVINSI PAPUA",
+      "region_code": "8201",
+      "zip_code_template": [
+        "99###"
+      ]
+    },
+    {
+      "city_name": "HALMAHERA TENGAH",
+      "region_name": "PROVINSI MALUKU UTARA",
+      "region_code": "8302",
+      "zip_code_template": [
+        "97###"
+      ]
+    },
+    {
+      "city_name": "SORONG",
+      "region_name": "PROVINSI PAPUA BARAT",
+      "region_code": "8401",
+      "zip_code_template": [
+        "98###"
+      ]
+    },
+    {
+      "city_name": "PURWAKARTA",
+      "region_name": "PROPINSI JAWA BARAT",
+      "region_code": "0103",
+      "zip_code_template": [
+        "41###"
+      ]
+    },
+    {
+      "city_name": "PANDEGLANG",
+      "region_name": "PROVINSI BANTEN",
+      "region_code": "0202",
+      "zip_code_template": [
+        "42###"
+      ]
+    },
+    {
+      "city_name": "JAKARTA UTARA",
+      "region_name": "DKI JAYA",
+      "region_code": "0392",
+      "zip_code_template": [
+        "14###"
+      ]
+    },
+    {
+      "city_name": "SLEMAN",
+      "region_name": "D.I YOGYAKARTA",
+      "region_code": "0502",
+      "zip_code_template": [
+        "55###"
+      ]
+    },
+    {
+      "city_name": "KENDAL",
+      "region_name": "PROV. JAWA TENGAH",
+      "region_code": "0902",
+      "zip_code_template": [
+        "51###"
+      ]
+    },
+    {
+      "city_name": "SIDOARJO",
+      "region_name": "PROV. JAWA TIMUR",
+      "region_code": "1202",
+      "zip_code_template": [
+        "61###"
+      ]
+    },
+    {
+      "city_name": "BENGKULU UTARA",
+      "region_name": "PROVINSI BENGKULU",
+      "region_code": "2302",
+      "zip_code_template": [
+        "38###"
+      ]
+    },
+    {
+      "city_name": "SAROLANGUN",
+      "region_name": "PROVINSI JAMBI",
+      "region_code": "3104",
+      "zip_code_template": [
+        "37###"
+      ]
+    },
+    {
+      "city_name": "PIDIE",
+      "region_name": "PROVINSI NAD",
+      "region_code": "3202",
+      "zip_code_template": [
+        "24###"
+      ]
+    },
+    {
+      "city_name": "LANGKAT",
+      "region_name": "PROVINSI SUMATERA UTARA",
+      "region_code": "3302",
+      "zip_code_template": [
+        "20###"
+      ]
+    },
+    {
+      "city_name": "PASAMAN",
+      "region_name": "PROVINSI SUMATERA BARAT",
+      "region_code": "3402",
+      "zip_code_template": [
+        "26###"
+      ]
+    },
+    {
+      "city_name": "BENGKALIS",
+      "region_name": "PROVINSI RIAU",
+      "region_code": "3502",
+      "zip_code_template": [
+        "28###"
+      ]
+    },
+    {
+      "city_name": "OGAN KOMERING ULU",
+      "region_name": "PROVINSI SUMATERA SELATAN",
+      "region_code": "3607",
+      "zip_code_template": [
+        "32###"
+      ]
+    },
+    {
+      "city_name": "BELITUNG",
+      "region_name": "PROVINSI KEP. BANGKA BELITUNG",
+      "region_code": "3702",
+      "zip_code_template": [
+        "33###"
+      ]
+    },
+    {
+      "city_name": "LINGGA",
+      "region_name": "PROVINSI KEPULAUAN RIAU",
+      "region_code": "3802",
+      "zip_code_template": [
+        "29###"
+      ]
+    },
+    {
+      "city_name": "LAMPUNG TENGAH",
+      "region_name": "PROVINSI LAMPUNG",
+      "region_code": "3902",
+      "zip_code_template": [
+        "34###"
+      ]
+    },
+    {
+      "city_name": "TANAH LAUT",
+      "region_name": "PROVINSI KALIMANTAN SELATAN",
+      "region_code": "5102",
+      "zip_code_template": [
+        "70###"
+      ]
+    },
+    {
+      "city_name": "SAMBAS",
+      "region_name": "PROVINSI KALIMANTAN BARAT",
+      "region_code": "5302",
+      "zip_code_template": [
+        "79###"
+      ]
+    },
+    {
+      "city_name": "BERAU",
+      "region_name": "PROVINSI KALIMANTAN TIMUR",
+      "region_code": "5402",
+      "zip_code_template": [
+        "77###"
+      ]
+    },
+    {
+      "city_name": "KOTAWARINGIN BARAT",
+      "region_name": "PROVINSI KALIMANTAN TENGAH",
+      "region_code": "5802",
+      "zip_code_template": [
+        "74###"
+      ]
+    },
+    {
+      "city_name": "POSO",
+      "region_name": "PROVINSI SULAWESI TENGAH",
+      "region_code": "6002",
+      "zip_code_template": [
+        "94###"
+      ]
+    },
+    {
+      "city_name": "GOWA",
+      "region_name": "PROVINSI SULAWESI SELATAN",
+      "region_code": "6102",
+      "zip_code_template": [
+        "92###"
+      ]
+    },
+    {
+      "city_name": "BOLAANG MONGONDOW",
+      "region_name": "PROVINSI SULAWESI UTARA",
+      "region_code": "6203",
+      "zip_code_template": [
+        "95###"
+      ]
+    },
+    {
+      "city_name": "BUALEMO",
+      "region_name": "PROVINSI GORONTALO",
+      "region_code": "6302",
+      "zip_code_template": [
+        "96###"
+      ]
+    },
+    {
+      "city_name": "MAJENE",
+      "region_name": "PROVINSI SULAWESI BARAT",
+      "region_code": "6402",
+      "zip_code_template": [
+        "91###"
+      ]
+    },
+    {
+      "city_name": "MUNA",
+      "region_name": "PROVINSI SULAWESI TENGGARA",
+      "region_code": "6903",
+      "zip_code_template": [
+        "93###"
+      ]
+    },
+    {
+      "city_name": "LOMBOK TENGAH",
+      "region_name": "PROVINSI NUSA TENGGARA BARAT",
+      "region_code": "7102",
+      "zip_code_template": [
+        "83###"
+      ]
+    },
+    {
+      "city_name": "JEMBRANA",
+      "region_name": "PROVINSI BALI",
+      "region_code": "7202",
+      "zip_code_template": [
+        "82###"
+      ]
+    },
+    {
+      "city_name": "TIMOR-TENGAH SELATAN",
+      "region_name": "PROVINSI NUSA TENGGARA TIMUR",
+      "region_code": "7402",
+      "zip_code_template": [
+        "85###"
+      ]
+    },
+    {
+      "city_name": "MALUKU TENGGARA",
+      "region_name": "PROVINSI MALUKU",
+      "region_code": "8102",
+      "zip_code_template": [
+        "97###"
+      ]
+    },
+    {
+      "city_name": "BIAK NUMFOR",
+      "region_name": "PROVINSI PAPUA",
+      "region_code": "8202",
+      "zip_code_template": [
+        "98###"
+      ]
+    },
+    {
+      "city_name": "HALMAHERA UTARA",
+      "region_name": "PROVINSI MALUKU UTARA",
+      "region_code": "8303",
+      "zip_code_template": [
+        "97###"
+      ]
+    },
+    {
+      "city_name": "FAK-FAK",
+      "region_name": "PROVINSI PAPUA BARAT",
+      "region_code": "8402",
+      "zip_code_template": [
+        "98###"
+      ]
+    },
+    {
+      "city_name": "KARAWANG",
+      "region_name": "PROPINSI JAWA BARAT",
+      "region_code": "0106",
+      "zip_code_template": [
+        "41###"
+      ]
+    },
+    {
+      "city_name": "SERANG",
+      "region_name": "PROVINSI BANTEN",
+      "region_code": "0203",
+      "zip_code_template": [
+        "42###"
+      ]
+    },
+    {
+      "city_name": "JAKARTA BARAT",
+      "region_name": "DKI JAYA",
+      "region_code": "0393",
+      "zip_code_template": [
+        "11###"
+      ]
+    },
+    {
+      "city_name": "GUNUNG KIDUL",
+      "region_name": "D.I YOGYAKARTA",
+      "region_code": "0503",
+      "zip_code_template": [
+        "55###"
+      ]
+    },
+    {
+      "city_name": "DEMAK",
+      "region_name": "PROV. JAWA TENGAH",
+      "region_code": "0903",
+      "zip_code_template": [
+        "59###"
+      ]
+    },
+    {
+      "city_name": "MOJOKERTO",
+      "region_name": "PROV. JAWA TIMUR",
+      "region_code": "1203",
+      "zip_code_template": [
+        "61###"
+      ]
+    },
+    {
+      "city_name": "REJANG LEBONG",
+      "region_name": "PROVINSI BENGKULU",
+      "region_code": "2303",
+      "zip_code_template": [
+        "39###"
+      ]
+    },
+    {
+      "city_name": "KERINCI",
+      "region_name": "PROVINSI JAMBI",
+      "region_code": "3105",
+      "zip_code_template": [
+        "37###"
+      ]
+    },
+    {
+      "city_name": "ACEH UTARA",
+      "region_name": "PROVINSI NAD",
+      "region_code": "3203",
+      "zip_code_template": [
+        "24###"
+      ]
+    },
+    {
+      "city_name": "KARO",
+      "region_name": "PROVINSI SUMATERA UTARA",
+      "region_code": "3303",
+      "zip_code_template": [
+        "22###"
+      ]
+    },
+    {
+      "city_name": "LIMAPULUH KOTO",
+      "region_name": "PROVINSI SUMATERA BARAT",
+      "region_code": "3403",
+      "zip_code_template": [
+        "26###"
+      ]
+    },
+    {
+      "city_name": "INDRAGIRI HULU",
+      "region_name": "PROVINSI RIAU",
+      "region_code": "3504",
+      "zip_code_template": [
+        "29###"
+      ]
+    },
+    {
+      "city_name": "LEMATANG ILIR OGAN TENGAH",
+      "region_name": "PROVINSI SUMATERA SELATAN",
+      "region_code": "3608",
+      "zip_code_template": [
+        "31###"
+      ]
+    },
+    {
+      "city_name": "BANGKA BARAT",
+      "region_name": "PROVINSI KEP. BANGKA BELITUNG",
+      "region_code": "3703",
+      "zip_code_template": [
+        "33###"
+      ]
+    },
+    {
+      "city_name": "NATUNA",
+      "region_name": "PROVINSI KEPULAUAN RIAU",
+      "region_code": "3803",
+      "zip_code_template": [
+        "29###"
+      ]
+    },
+    {
+      "city_name": "LAMPUNG UTARA",
+      "region_name": "PROVINSI LAMPUNG",
+      "region_code": "3903",
+      "zip_code_template": [
+        "34###"
+      ]
+    },
+    {
+      "city_name": "TAPIN",
+      "region_name": "PROVINSI KALIMANTAN SELATAN",
+      "region_code": "5103",
+      "zip_code_template": [
+        "71###"
+      ]
+    },
+    {
+      "city_name": "KETAPANG",
+      "region_name": "PROVINSI KALIMANTAN BARAT",
+      "region_code": "5303",
+      "zip_code_template": [
+        "78###"
+      ]
+    },
+    {
+      "city_name": "PASIR",
+      "region_name": "PROVINSI KALIMANTAN TIMUR",
+      "region_code": "5403",
+      "zip_code_template": [
+        "76###"
+      ]
+    },
+    {
+      "city_name": "KOTAWARINGIN TIMUR",
+      "region_name": "PROVINSI KALIMANTAN TENGAH",
+      "region_code": "5803",
+      "zip_code_template": [
+        "74###"
+      ]
+    },
+    {
+      "city_name": "PARIMO/BANGGAI",
+      "region_name": "PROVINSI SULAWESI TENGAH",
+      "region_code": "6003",
+      "zip_code_template": [
+        "94###"
+      ]
+    },
+    {
+      "city_name": "WAJO",
+      "region_name": "PROVINSI SULAWESI SELATAN",
+      "region_code": "6103",
+      "zip_code_template": [
+        "90###"
+      ]
+    },
+    {
+      "city_name": "SANGIHE",
+      "region_name": "PROVINSI SULAWESI UTARA",
+      "region_code": "6204",
+      "zip_code_template": [
+        "95###"
+      ]
+    },
+    {
+      "city_name": "BONEBOLANGO",
+      "region_name": "PROVINSI GORONTALO",
+      "region_code": "6303",
+      "zip_code_template": [
+        "96###"
+      ]
+    },
+    {
+      "city_name": "MAMASA",
+      "region_name": "PROVINSI SULAWESI BARAT",
+      "region_code": "6403",
+      "zip_code_template": [
+        "91###"
+      ]
+    },
+    {
+      "city_name": "KOLAKA",
+      "region_name": "PROVINSI SULAWESI TENGGARA",
+      "region_code": "6904",
+      "zip_code_template": [
+        "93###"
+      ]
+    },
+    {
+      "city_name": "LOMBOK TIMUR",
+      "region_name": "PROVINSI NUSA TENGGARA BARAT",
+      "region_code": "7103",
+      "zip_code_template": [
+        "83###"
+      ]
+    },
+    {
+      "city_name": "TABANAN",
+      "region_name": "PROVINSI BALI",
+      "region_code": "7203",
+      "zip_code_template": [
+        "82###"
+      ]
+    },
+    {
+      "city_name": "TIMOR-TENGAH UTARA",
+      "region_name": "PROVINSI NUSA TENGGARA TIMUR",
+      "region_code": "7403",
+      "zip_code_template": [
+        "85###"
+      ]
+    },
+    {
+      "city_name": "MALUKU TENGGARA BARAT",
+      "region_name": "PROVINSI MALUKU",
+      "region_code": "8103",
+      "zip_code_template": [
+        "97###"
+      ]
+    },
+    {
+      "city_name": "YAPEN-WAROPEN",
+      "region_name": "PROVINSI PAPUA",
+      "region_code": "8210",
+      "zip_code_template": [
+        "98###"
+      ]
+    },
+    {
+      "city_name": "HALMAHERA TIMUR",
+      "region_name": "PROVINSI MALUKU UTARA",
+      "region_code": "8304",
+      "zip_code_template": [
+        "97###"
+      ]
+    },
+    {
+      "city_name": "MANOKWARI",
+      "region_name": "PROVINSI PAPUA BARAT",
+      "region_code": "8403",
+      "zip_code_template": [
+        "98###"
+      ]
+    },
+    {
+      "city_name": "BOGOR",
+      "region_name": "PROPINSI JAWA BARAT",
+      "region_code": "0108",
+      "zip_code_template": [
+        "16###"
+      ]
+    },
+    {
+      "city_name": "TANGERANG",
+      "region_name": "PROVINSI BANTEN",
+      "region_code": "0204",
+      "zip_code_template": [
+        "15###"
+      ]
+    },
+    {
+      "city_name": "JAKARTA SELATAN",
+      "region_name": "DKI JAYA",
+      "region_code": "0394",
+      "zip_code_template": [
+        "12###"
+      ]
+    },
+    {
+      "city_name": "KULON PROGO",
+      "region_name": "D.I YOGYAKARTA",
+      "region_code": "0504",
+      "zip_code_template": [
+        "55###"
+      ]
+    },
+    {
+      "city_name": "GROBOGAN",
+      "region_name": "PROV. JAWA TENGAH",
+      "region_code": "0904",
+      "zip_code_template": [
+        "58###"
+      ]
+    },
+    {
+      "city_name": "JOMBANG",
+      "region_name": "PROV. JAWA TIMUR",
+      "region_code": "1204",
+      "zip_code_template": [
+        "61###"
+      ]
+    },
+    {
+      "city_name": "LEBONG",
+      "region_name": "PROVINSI BENGKULU",
+      "region_code": "2304",
+      "zip_code_template": [
+        "39###"
+      ]
+    },
+    {
+      "city_name": "MUARO JAMBI",
+      "region_name": "PROVINSI JAMBI",
+      "region_code": "3106",
+      "zip_code_template": [
+        "36###"
+      ]
+    },
+    {
+      "city_name": "ACEH TIMUR",
+      "region_name": "PROVINSI NAD",
+      "region_code": "3204",
+      "zip_code_template": [
+        "24###"
+      ]
+    },
+    {
+      "city_name": "SIMALUNGUN",
+      "region_name": "PROVINSI SUMATERA UTARA",
+      "region_code": "3304",
+      "zip_code_template": [
+        "21###"
+      ]
+    },
+    {
+      "city_name": "SOLOK SELATAN",
+      "region_name": "PROVINSI SUMATERA BARAT",
+      "region_code": "3404",
+      "zip_code_template": [
+        "27###"
+      ]
+    },
+    {
+      "city_name": "INDRAGIRI HILIR",
+      "region_name": "PROVINSI RIAU",
+      "region_code": "3505",
+      "zip_code_template": [
+        "29###"
+      ]
+    },
+    {
+      "city_name": "LAHAT",
+      "region_name": "PROVINSI SUMATERA SELATAN",
+      "region_code": "3609",
+      "zip_code_template": [
+        "31###"
+      ]
+    },
+    {
+      "city_name": "BANGKA SELATAN",
+      "region_name": "PROVINSI KEP. BANGKA BELITUNG",
+      "region_code": "3704",
+      "zip_code_template": [
+        "33###"
+      ]
+    },
+    {
+      "city_name": "BINTAN",
+      "region_name": "PROVINSI KEPULAUAN RIAU",
+      "region_code": "3804",
+      "zip_code_template": [
+        "29###"
+      ]
+    },
+    {
+      "city_name": "LAMPUNG BARAT",
+      "region_name": "PROVINSI LAMPUNG",
+      "region_code": "3904",
+      "zip_code_template": [
+        "34###"
+      ]
+    },
+    {
+      "city_name": "HULU SUNGAI SELATAN",
+      "region_name": "PROVINSI KALIMANTAN SELATAN",
+      "region_code": "5104",
+      "zip_code_template": [
+        "71###"
+      ]
+    },
+    {
+      "city_name": "SANGGAU",
+      "region_name": "PROVINSI KALIMANTAN BARAT",
+      "region_code": "5304",
+      "zip_code_template": [
+        "78###"
+      ]
+    },
+    {
+      "city_name": "BULUNGAN",
+      "region_name": "PROVINSI KALIMANTAN TIMUR",
+      "region_code": "5404",
+      "zip_code_template": [
+        "77###"
+      ]
+    },
+    {
+      "city_name": "MURUNG RAYA",
+      "region_name": "PROVINSI KALIMANTAN TENGAH",
+      "region_code": "5804",
+      "zip_code_template": [
+        "74###"
+      ]
+    },
+    {
+      "city_name": "TOLI-TOLI",
+      "region_name": "PROVINSI SULAWESI TENGAH",
+      "region_code": "6004",
+      "zip_code_template": [
+        "94###"
+      ]
+    },
+    {
+      "city_name": "BONE",
+      "region_name": "PROVINSI SULAWESI SELATAN",
+      "region_code": "6105",
+      "zip_code_template": [
+        "92###"
+      ]
+    },
+    {
+      "city_name": "KEPULAUAN TALAUD",
+      "region_name": "PROVINSI SULAWESI UTARA",
+      "region_code": "6205",
+      "zip_code_template": [
+        "95###"
+      ]
+    },
+    {
+      "city_name": "POHUWATO",
+      "region_name": "PROVINSI GORONTALO",
+      "region_code": "6304",
+      "zip_code_template": [
+        "96###"
+      ]
+    },
+    {
+      "city_name": "MAMUJU UTARA",
+      "region_name": "PROVINSI SULAWESI BARAT",
+      "region_code": "6404",
+      "zip_code_template": [
+        "91###"
+      ]
+    },
+    {
+      "city_name": "WAKATOBI",
+      "region_name": "PROVINSI SULAWESI TENGGARA",
+      "region_code": "6905",
+      "zip_code_template": [
+        "93###"
+      ]
+    },
+    {
+      "city_name": "SUMBAWA",
+      "region_name": "PROVINSI NUSA TENGGARA BARAT",
+      "region_code": "7104",
+      "zip_code_template": [
+        "84###"
+      ]
+    },
+    {
+      "city_name": "BADUNG",
+      "region_name": "PROVINSI BALI",
+      "region_code": "7204",
+      "zip_code_template": [
+        "80###"
+      ]
+    },
+    {
+      "city_name": "BELU",
+      "region_name": "PROVINSI NUSA TENGGARA TIMUR",
+      "region_code": "7404",
+      "zip_code_template": [
+        "85###"
+      ]
+    },
+    {
+      "city_name": "KAB BURU",
+      "region_name": "PROVINSI MALUKU",
+      "region_code": "8104",
+      "zip_code_template": [
+        "97###"
+      ]
+    },
+    {
+      "city_name": "MERAUKE",
+      "region_name": "PROVINSI PAPUA",
+      "region_code": "8211",
+      "zip_code_template": [
+        "99###"
+      ]
+    },
+    {
+      "city_name": "HALMAHERA BARAT",
+      "region_name": "PROVINSI MALUKU UTARA",
+      "region_code": "8305",
+      "zip_code_template": [
+        "97###"
+      ]
+    },
+    {
+      "city_name": "SORONG SELATAN",
+      "region_name": "PROVINSI PAPUA BARAT",
+      "region_code": "8404",
+      "zip_code_template": [
+        "98###"
+      ]
+    },
+    {
+      "city_name": "SUKABUMI",
+      "region_name": "PROPINSI JAWA BARAT",
+      "region_code": "0109",
+      "zip_code_template": [
+        "43###"
+      ]
+    },
+    {
+      "city_name": "CILEGON",
+      "region_name": "PROVINSI BANTEN",
+      "region_code": "0291",
+      "zip_code_template": [
+        "42###"
+      ]
+    },
+    {
+      "city_name": "JAKARTA TIMUR",
+      "region_name": "DKI JAYA",
+      "region_code": "0395",
+      "zip_code_template": [
+        "13###"
+      ]
+    },
+    {
+      "city_name": "YOGYAKARTA",
+      "region_name": "D.I YOGYAKARTA",
+      "region_code": "0591",
+      "zip_code_template": [
+        "55###"
+      ]
+    },
+    {
+      "city_name": "PEKALONGAN",
+      "region_name": "PROV. JAWA TENGAH",
+      "region_code": "0905",
+      "zip_code_template": [
+        "51###"
+      ]
+    },
+    {
+      "city_name": "SAMPANG",
+      "region_name": "PROV. JAWA TIMUR",
+      "region_code": "1205",
+      "zip_code_template": [
+        "69###"
+      ]
+    },
+    {
+      "city_name": "KEPAHIANG",
+      "region_name": "PROVINSI BENGKULU",
+      "region_code": "2305",
+      "zip_code_template": [
+        "39###"
+      ]
+    },
+    {
+      "city_name": "TANJUNG JABUNG BARAT",
+      "region_name": "PROVINSI JAMBI",
+      "region_code": "3107",
+      "zip_code_template": [
+        "36###"
+      ]
+    },
+    {
+      "city_name": "ACEH SELATAN",
+      "region_name": "PROVINSI NAD",
+      "region_code": "3205",
+      "zip_code_template": [
+        "23###"
+      ]
+    },
+    {
+      "city_name": "LABUHAN BATU",
+      "region_name": "PROVINSI SUMATERA UTARA",
+      "region_code": "3305",
+      "zip_code_template": [
+        "21###"
+      ]
+    },
+    {
+      "city_name": "PADANG PARIAMAN",
+      "region_name": "PROVINSI SUMATERA BARAT",
+      "region_code": "3405",
+      "zip_code_template": [
+        "25###"
+      ]
+    },
+    {
+      "city_name": "ROKAN HULU",
+      "region_name": "PROVINSI RIAU",
+      "region_code": "3508",
+      "zip_code_template": [
+        "28###"
+      ]
+    },
+    {
+      "city_name": "MUSI RAWAS",
+      "region_name": "PROVINSI SUMATERA SELATAN",
+      "region_code": "3610",
+      "zip_code_template": [
+        "31###"
+      ]
+    },
+    {
+      "city_name": "BANGKA TENGAH",
+      "region_name": "PROVINSI KEP. BANGKA BELITUNG",
+      "region_code": "3705",
+      "zip_code_template": [
+        "33###"
+      ]
+    },
+    {
+      "city_name": "TANJUNGPINANG",
+      "region_name": "PROVINSI KEPULAUAN RIAU",
+      "region_code": "3891",
+      "zip_code_template": [
+        "29###"
+      ]
+    },
+    {
+      "city_name": "TULANG BAWANG",
+      "region_name": "PROVINSI LAMPUNG",
+      "region_code": "3905",
+      "zip_code_template": [
+        "34###"
+      ]
+    },
+    {
+      "city_name": "HULU SUNGAI TENGAH",
+      "region_name": "PROVINSI KALIMANTAN SELATAN",
+      "region_code": "5105",
+      "zip_code_template": [
+        "71###"
+      ]
+    },
+    {
+      "city_name": "SINTANG",
+      "region_name": "PROVINSI KALIMANTAN BARAT",
+      "region_code": "5305",
+      "zip_code_template": [
+        "78###"
+      ]
+    },
+    {
+      "city_name": "KUTAI BARAT",
+      "region_name": "PROVINSI KALIMANTAN TIMUR",
+      "region_code": "5405",
+      "zip_code_template": [
+        "75###"
+      ]
+    },
+    {
+      "city_name": "BARITO TIMUR",
+      "region_name": "PROVINSI KALIMANTAN TENGAH",
+      "region_code": "5805",
+      "zip_code_template": [
+        "73###"
+      ]
+    },
+    {
+      "city_name": "KAB.BANGGAI KEPULAUAN",
+      "region_name": "PROVINSI SULAWESI TENGAH",
+      "region_code": "6005",
+      "zip_code_template": [
+        "94###"
+      ]
+    },
+    {
+      "city_name": "TANA TORAJA",
+      "region_name": "PROVINSI SULAWESI SELATAN",
+      "region_code": "6106",
+      "zip_code_template": [
+        "91###"
+      ]
+    },
+    {
+      "city_name": "MINAHASA SELATAN",
+      "region_name": "PROVINSI SULAWESI UTARA",
+      "region_code": "6206",
+      "zip_code_template": [
+        "95###"
+      ]
+    },
+    {
+      "city_name": "GORONTALO UTARA",
+      "region_name": "PROVINSI GORONTALO",
+      "region_code": "6305",
+      "zip_code_template": [
+        "96###"
+      ]
+    },
+    {
+      "city_name": "MAMUJU",
+      "region_name": "PROVINSI SULAWESI BARAT",
+      "region_code": "6491",
+      "zip_code_template": [
+        "91###"
+      ]
+    },
+    {
+      "city_name": "KONAWE",
+      "region_name": "PROVINSI SULAWESI TENGGARA",
+      "region_code": "6906",
+      "zip_code_template": [
+        "93###"
+      ]
+    },
+    {
+      "city_name": "BIMA",
+      "region_name": "PROVINSI NUSA TENGGARA BARAT",
+      "region_code": "7105",
+      "zip_code_template": [
+        "84###"
+      ]
+    },
+    {
+      "city_name": "GIANYAR",
+      "region_name": "PROVINSI BALI",
+      "region_code": "7205",
+      "zip_code_template": [
+        "80###"
+      ]
+    },
+    {
+      "city_name": "ALOR",
+      "region_name": "PROVINSI NUSA TENGGARA TIMUR",
+      "region_code": "7405",
+      "zip_code_template": [
+        "85###"
+      ]
+    },
+    {
+      "city_name": "SERAM BAGIAN BARAT",
+      "region_name": "PROVINSI MALUKU",
+      "region_code": "8105",
+      "zip_code_template": [
+        "97###"
+      ]
+    },
+    {
+      "city_name": "PANIAI",
+      "region_name": "PROVINSI PAPUA",
+      "region_code": "8212",
+      "zip_code_template": [
+        "98###"
+      ]
+    },
+    {
+      "city_name": "HALMAHERA SELATAN",
+      "region_name": "PROVINSI MALUKU UTARA",
+      "region_code": "8306",
+      "zip_code_template": [
+        "97###"
+      ]
+    },
+    {
+      "city_name": "RAJA AMPAT",
+      "region_name": "PROVINSI PAPUA BARAT",
+      "region_code": "8405",
+      "zip_code_template": [
+        "98###"
+      ]
+    },
+    {
+      "city_name": "CIANJUR",
+      "region_name": "PROPINSI JAWA BARAT",
+      "region_code": "0110",
+      "zip_code_template": [
+        "43###"
+      ]
+    },
+    {
+      "city_name": "TANGERANG",
+      "region_name": "PROVINSI BANTEN",
+      "region_code": "0292",
+      "zip_code_template": [
+        "15###"
+      ]
+    },
+    {
+      "city_name": "KEPULAUAN SERIBU",
+      "region_name": "DKI JAYA",
+      "region_code": "0396",
+      "zip_code_template": [
+        "14###"
+      ]
+    },
+    {
+      "city_name": "TEGAL",
+      "region_name": "PROV. JAWA TENGAH",
+      "region_code": "0906",
+      "zip_code_template": [
+        "52###"
+      ]
+    },
+    {
+      "city_name": "PAMEKASAN",
+      "region_name": "PROV. JAWA TIMUR",
+      "region_code": "1206",
+      "zip_code_template": [
+        "69###"
+      ]
+    },
+    {
+      "city_name": "MUKOMUKO",
+      "region_name": "PROVINSI BENGKULU",
+      "region_code": "2306",
+      "zip_code_template": [
+        "38###"
+      ]
+    },
+    {
+      "city_name": "TANJUNG JABUNG TIMUR",
+      "region_name": "PROVINSI JAMBI",
+      "region_code": "3108",
+      "zip_code_template": [
+        "36###"
+      ]
+    },
+    {
+      "city_name": "ACEH BARAT",
+      "region_name": "PROVINSI NAD",
+      "region_code": "3206",
+      "zip_code_template": [
+        "23###"
+      ]
+    },
+    {
+      "city_name": "ASAHAN",
+      "region_name": "PROVINSI SUMATERA UTARA",
+      "region_code": "3306",
+      "zip_code_template": [
+        "21###"
+      ]
+    },
+    {
+      "city_name": "PESISIR SELATAN",
+      "region_name": "PROVINSI SUMATERA BARAT",
+      "region_code": "3406",
+      "zip_code_template": [
+        "25###"
+      ]
+    },
+    {
+      "city_name": "ROKAN HILIR",
+      "region_name": "PROVINSI RIAU",
+      "region_code": "3509",
+      "zip_code_template": [
+        "28###"
+      ]
+    },
+    {
+      "city_name": "OGAN KOMERING ILIR",
+      "region_name": "PROVINSI SUMATERA SELATAN",
+      "region_code": "3611",
+      "zip_code_template": [
+        "30###"
+      ]
+    },
+    {
+      "city_name": "BELITUNG TIMUR",
+      "region_name": "PROVINSI KEP. BANGKA BELITUNG",
+      "region_code": "3706",
+      "zip_code_template": [
+        "33###"
+      ]
+    },
+    {
+      "city_name": "BATAM",
+      "region_name": "PROVINSI KEPULAUAN RIAU",
+      "region_code": "3892",
+      "zip_code_template": [
+        "29###"
+      ]
+    },
+    {
+      "city_name": "TANGGAMUS",
+      "region_name": "PROVINSI LAMPUNG",
+      "region_code": "3906",
+      "zip_code_template": [
+        "35###"
+      ]
+    },
+    {
+      "city_name": "HULU SUNGAI UTARA",
+      "region_name": "PROVINSI KALIMANTAN SELATAN",
+      "region_code": "5106",
+      "zip_code_template": [
+        "71###"
+      ]
+    },
+    {
+      "city_name": "KAPUAS HULU",
+      "region_name": "PROVINSI KALIMANTAN BARAT",
+      "region_code": "5306",
+      "zip_code_template": [
+        "78###"
+      ]
+    },
+    {
+      "city_name": "KUTAI TIMUR",
+      "region_name": "PROVINSI KALIMANTAN TIMUR",
+      "region_code": "5406",
+      "zip_code_template": [
+        "75###"
+      ]
+    },
+    {
+      "city_name": "BARITO SELATAN",
+      "region_name": "PROVINSI KALIMANTAN TENGAH",
+      "region_code": "5806",
+      "zip_code_template": [
+        "73###"
+      ]
+    },
+    {
+      "city_name": "MOROWALI",
+      "region_name": "PROVINSI SULAWESI TENGAH",
+      "region_code": "6006",
+      "zip_code_template": [
+        "94###"
+      ]
+    },
+    {
+      "city_name": "MAROS",
+      "region_name": "PROVINSI SULAWESI SELATAN",
+      "region_code": "6107",
+      "zip_code_template": [
+        "90###"
+      ]
+    },
+    {
+      "city_name": "MINAHASA UTARA",
+      "region_name": "PROVINSI SULAWESI UTARA",
+      "region_code": "6207",
+      "zip_code_template": [
+        "95###"
+      ]
+    },
+    {
+      "city_name": "GORONTALO",
+      "region_name": "PROVINSI GORONTALO",
+      "region_code": "6391",
+      "zip_code_template": [
+        "96###"
+      ]
+    },
+    {
+      "city_name": "KONAWE SELATAN",
+      "region_name": "PROVINSI SULAWESI TENGGARA",
+      "region_code": "6907",
+      "zip_code_template": [
+        "93###"
+      ]
+    },
+    {
+      "city_name": "DOMPU",
+      "region_name": "PROVINSI NUSA TENGGARA BARAT",
+      "region_code": "7106",
+      "zip_code_template": [
+        "84###"
+      ]
+    },
+    {
+      "city_name": "KLUNGKUNG",
+      "region_name": "PROVINSI BALI",
+      "region_code": "7206",
+      "zip_code_template": [
+        "80###"
+      ]
+    },
+    {
+      "city_name": "FLORES TIMUR",
+      "region_name": "PROVINSI NUSA TENGGARA TIMUR",
+      "region_code": "7406",
+      "zip_code_template": [
+        "86###"
+      ]
+    },
+    {
+      "city_name": "SERAM BAGIAN TIMUR",
+      "region_name": "PROVINSI MALUKU",
+      "region_code": "8106",
+      "zip_code_template": [
+        "97###"
+      ]
+    },
+    {
+      "city_name": "JAYAWIJAYA",
+      "region_name": "PROVINSI PAPUA",
+      "region_code": "8213",
+      "zip_code_template": [
+        "99###"
+      ]
+    },
+    {
+      "city_name": "KEPULAUAN SULA",
+      "region_name": "PROVINSI MALUKU UTARA",
+      "region_code": "8307",
+      "zip_code_template": [
+        "97###"
+      ]
+    },
+    {
+      "city_name": "KAIMANA",
+      "region_name": "PROVINSI PAPUA BARAT",
+      "region_code": "8406",
+      "zip_code_template": [
+        "98###"
+      ]
+    },
+    {
+      "city_name": "BANDUNG",
+      "region_name": "PROPINSI JAWA BARAT",
+      "region_code": "0111",
+      "zip_code_template": [
+        "40###"
+      ]
+    },
+    {
+      "city_name": "SERANG",
+      "region_name": "PROVINSI BANTEN",
+      "region_code": "0293",
+      "zip_code_template": [
+        "42###"
+      ]
+    },
+    {
+      "city_name": "BREBES",
+      "region_name": "PROV. JAWA TENGAH",
+      "region_code": "0907",
+      "zip_code_template": [
+        "52###"
+      ]
+    },
+    {
+      "city_name": "SUMENEP",
+      "region_name": "PROV. JAWA TIMUR",
+      "region_code": "1207",
+      "zip_code_template": [
+        "69###"
+      ]
+    },
+    {
+      "city_name": "SELUMA",
+      "region_name": "PROVINSI BENGKULU",
+      "region_code": "2307",
+      "zip_code_template": [
+        "38###"
+      ]
+    },
+    {
+      "city_name": "TEBO",
+      "region_name": "PROVINSI JAMBI",
+      "region_code": "3109",
+      "zip_code_template": [
+        "37###"
+      ]
+    },
+    {
+      "city_name": "ACEH TENGAH",
+      "region_name": "PROVINSI NAD",
+      "region_code": "3207",
+      "zip_code_template": [
+        "24###"
+      ]
+    },
+    {
+      "city_name": "DAIRI",
+      "region_name": "PROVINSI SUMATERA UTARA",
+      "region_code": "3307",
+      "zip_code_template": [
+        "22###"
+      ]
+    },
+    {
+      "city_name": "TANAH DATAR",
+      "region_name": "PROVINSI SUMATERA BARAT",
+      "region_code": "3407",
+      "zip_code_template": [
+        "27###"
+      ]
+    },
+    {
+      "city_name": "PELALAWAN",
+      "region_name": "PROVINSI RIAU",
+      "region_code": "3510",
+      "zip_code_template": [
+        "28###"
+      ]
+    },
+    {
+      "city_name": "BANYUASIN, KAB",
+      "region_name": "PROVINSI SUMATERA SELATAN",
+      "region_code": "3613",
+      "zip_code_template": [
+        "30###"
+      ]
+    },
+    {
+      "city_name": "PANGKAL PINANG",
+      "region_name": "PROVINSI KEP. BANGKA BELITUNG",
+      "region_code": "3791",
+      "zip_code_template": [
+        "33###"
+      ]
+    },
+    {
+      "city_name": "LAMPUNG TIMUR",
+      "region_name": "PROVINSI LAMPUNG",
+      "region_code": "3907",
+      "zip_code_template": [
+        "34###"
+      ]
+    },
+    {
+      "city_name": "BARITO KUALA",
+      "region_name": "PROVINSI KALIMANTAN SELATAN",
+      "region_code": "5107",
+      "zip_code_template": [
+        "70###"
+      ]
+    },
+    {
+      "city_name": "BENGKAYANG",
+      "region_name": "PROVINSI KALIMANTAN BARAT",
+      "region_code": "5307",
+      "zip_code_template": [
+        "79###"
+      ]
+    },
+    {
+      "city_name": "NUNUKAN",
+      "region_name": "PROVINSI KALIMANTAN TIMUR",
+      "region_code": "5409",
+      "zip_code_template": [
+        "76###"
+      ]
+    },
+    {
+      "city_name": "GUNUNG MAS",
+      "region_name": "PROVINSI KALIMANTAN TENGAH",
+      "region_code": "5807",
+      "zip_code_template": [
+        "74###"
+      ]
+    },
+    {
+      "city_name": "BUOL",
+      "region_name": "PROVINSI SULAWESI TENGAH",
+      "region_code": "6007",
+      "zip_code_template": [
+        "94###"
+      ]
+    },
+    {
+      "city_name": "LUWU",
+      "region_name": "PROVINSI SULAWESI SELATAN",
+      "region_code": "6109",
+      "zip_code_template": [
+        "91###"
+      ]
+    },
+    {
+      "city_name": "MINAHASA TENGGARA",
+      "region_name": "PROVINSI SULAWESI UTARA",
+      "region_code": "6209",
+      "zip_code_template": [
+        "95###"
+      ]
+    },
+    {
+      "city_name": "BOMBANA",
+      "region_name": "PROVINSI SULAWESI TENGGARA",
+      "region_code": "6908",
+      "zip_code_template": [
+        "93###"
+      ]
+    },
+    {
+      "city_name": "SUMBAWA BARAT",
+      "region_name": "PROVINSI NUSA TENGGARA BARAT",
+      "region_code": "7107",
+      "zip_code_template": [
+        "84###"
+      ]
+    },
+    {
+      "city_name": "BANGLI",
+      "region_name": "PROVINSI BALI",
+      "region_code": "7207",
+      "zip_code_template": [
+        "80###"
+      ]
+    },
+    {
+      "city_name": "SIKKA",
+      "region_name": "PROVINSI NUSA TENGGARA TIMUR",
+      "region_code": "7407",
+      "zip_code_template": [
+        "86###"
+      ]
+    },
+    {
+      "city_name": "KEPULAUAN ARU",
+      "region_name": "PROVINSI MALUKU",
+      "region_code": "8107",
+      "zip_code_template": [
+        "97###"
+      ]
+    },
+    {
+      "city_name": "NABIRE",
+      "region_name": "PROVINSI PAPUA",
+      "region_code": "8214",
+      "zip_code_template": [
+        "98###"
+      ]
+    },
+    {
+      "city_name": "TERNATE",
+      "region_name": "PROVINSI MALUKU UTARA",
+      "region_code": "8390",
+      "zip_code_template": [
+        "97###"
+      ]
+    },
+    {
+      "city_name": "TELUK BINTUNI",
+      "region_name": "PROVINSI PAPUA BARAT",
+      "region_code": "8407",
+      "zip_code_template": [
+        "98###"
+      ]
+    },
+    {
+      "city_name": "SUMEDANG",
+      "region_name": "PROPINSI JAWA BARAT",
+      "region_code": "0112",
+      "zip_code_template": [
+        "45###"
+      ]
+    },
+    {
+      "city_name": "PATI",
+      "region_name": "PROV. JAWA TENGAH",
+      "region_code": "0908",
+      "zip_code_template": [
+        "59###"
+      ]
+    },
+    {
+      "city_name": "BANGKALAN",
+      "region_name": "PROV. JAWA TIMUR",
+      "region_code": "1208",
+      "zip_code_template": [
+        "69###"
+      ]
+    },
+    {
+      "city_name": "KAUR, KAB",
+      "region_name": "PROVINSI BENGKULU",
+      "region_code": "2308",
+      "zip_code_template": [
+        "38###"
+      ]
+    },
+    {
+      "city_name": "MUARA BUNGO",
+      "region_name": "PROVINSI JAMBI",
+      "region_code": "3110",
+      "zip_code_template": [
+        "37###"
+      ]
+    },
+    {
+      "city_name": "ACEH TENGGARA",
+      "region_name": "PROVINSI NAD",
+      "region_code": "3208",
+      "zip_code_template": [
+        "23###"
+      ]
+    },
+    {
+      "city_name": "TAPANULI UTARA",
+      "region_name": "PROVINSI SUMATERA UTARA",
+      "region_code": "3308",
+      "zip_code_template": [
+        "22###"
+      ]
+    },
+    {
+      "city_name": "SAWAHLUNTO/SIJUNJUNG",
+      "region_name": "PROVINSI SUMATERA BARAT",
+      "region_code": "3408",
+      "zip_code_template": [
+        "27###"
+      ]
+    },
+    {
+      "city_name": "SIAK",
+      "region_name": "PROVINSI RIAU",
+      "region_code": "3511",
+      "zip_code_template": [
+        "28###"
+      ]
+    },
+    {
+      "city_name": "OGAN KOMERING ULU SELATAN",
+      "region_name": "PROVINSI SUMATERA SELATAN",
+      "region_code": "3614",
+      "zip_code_template": [
+        "32###"
+      ]
+    },
+    {
+      "city_name": "WAY KANAN",
+      "region_name": "PROVINSI LAMPUNG",
+      "region_code": "3908",
+      "zip_code_template": [
+        "34###"
+      ]
+    },
+    {
+      "city_name": "KOTA BARU",
+      "region_name": "PROVINSI KALIMANTAN SELATAN",
+      "region_code": "5108",
+      "zip_code_template": [
+        "72###"
+      ]
+    },
+    {
+      "city_name": "LANDAK",
+      "region_name": "PROVINSI KALIMANTAN BARAT",
+      "region_code": "5308",
+      "zip_code_template": [
+        "78###"
+      ]
+    },
+    {
+      "city_name": "MALINAU",
+      "region_name": "PROVINSI KALIMANTAN TIMUR",
+      "region_code": "5410",
+      "zip_code_template": [
+        "77###"
+      ]
+    },
+    {
+      "city_name": "BARITO UTARA",
+      "region_name": "PROVINSI KALIMANTAN TENGAH",
+      "region_code": "5808",
+      "zip_code_template": [
+        "73###"
+      ]
+    },
+    {
+      "city_name": "TOJO UNA-UNA, KAB",
+      "region_name": "PROVINSI SULAWESI TENGAH",
+      "region_code": "6008",
+      "zip_code_template": [
+        "94###"
+      ]
+    },
+    {
+      "city_name": "SINJAI",
+      "region_name": "PROVINSI SULAWESI SELATAN",
+      "region_code": "6110",
+      "zip_code_template": [
+        "92###"
+      ]
+    },
+    {
+      "city_name": "BOLAANG MONGONDOW UTARA",
+      "region_name": "PROVINSI SULAWESI UTARA",
+      "region_code": "6210",
+      "zip_code_template": [
+        "95###"
+      ]
+    },
+    {
+      "city_name": "KOLAKA UTARA",
+      "region_name": "PROVINSI SULAWESI TENGGARA",
+      "region_code": "6909",
+      "zip_code_template": [
+        "93###"
+      ]
+    },
+    {
+      "city_name": "MATARAM",
+      "region_name": "PROVINSI NUSA TENGGARA BARAT",
+      "region_code": "7191",
+      "zip_code_template": [
+        "83###"
+      ]
+    },
+    {
+      "city_name": "KARANGASEM",
+      "region_name": "PROVINSI BALI",
+      "region_code": "7208",
+      "zip_code_template": [
+        "80###"
+      ]
+    },
+    {
+      "city_name": "ENDE",
+      "region_name": "PROVINSI NUSA TENGGARA TIMUR",
+      "region_code": "7408",
+      "zip_code_template": [
+        "86###"
+      ]
+    },
+    {
+      "city_name": "AMBON",
+      "region_name": "PROVINSI MALUKU",
+      "region_code": "8191",
+      "zip_code_template": [
+        "97###"
+      ]
+    },
+    {
+      "city_name": "MIMIKA",
+      "region_name": "PROVINSI PAPUA",
+      "region_code": "8215",
+      "zip_code_template": [
+        "99###"
+      ]
+    },
+    {
+      "city_name": "TIDORE KEPULAUAN",
+      "region_name": "PROVINSI MALUKU UTARA",
+      "region_code": "8391",
+      "zip_code_template": [
+        "97###"
+      ]
+    },
+    {
+      "city_name": "TELUK WONDAMA",
+      "region_name": "PROVINSI PAPUA BARAT",
+      "region_code": "8408",
+      "zip_code_template": [
+        "98###"
+      ]
+    },
+    {
+      "city_name": "TASIKMALAYA",
+      "region_name": "PROPINSI JAWA BARAT",
+      "region_code": "0113",
+      "zip_code_template": [
+        "46###"
+      ]
+    },
+    {
+      "city_name": "KUDUS",
+      "region_name": "PROV. JAWA TENGAH",
+      "region_code": "0909",
+      "zip_code_template": [
+        "59###"
+      ]
+    },
+    {
+      "city_name": "BONDOWOSO",
+      "region_name": "PROV. JAWA TIMUR",
+      "region_code": "1209",
+      "zip_code_template": [
+        "68###"
+      ]
+    },
+    {
+      "city_name": "BENGKULU",
+      "region_name": "PROVINSI BENGKULU",
+      "region_code": "2391",
+      "zip_code_template": [
+        "38###"
+      ]
+    },
+    {
+      "city_name": "MERANGIN",
+      "region_name": "PROVINSI JAMBI",
+      "region_code": "3111",
+      "zip_code_template": [
+        "37###"
+      ]
+    },
+    {
+      "city_name": "ACEH SINGKIL",
+      "region_name": "PROVINSI NAD",
+      "region_code": "3209",
+      "zip_code_template": [
+        "23###"
+      ]
+    },
+    {
+      "city_name": "TAPANULI TENGAH",
+      "region_name": "PROVINSI SUMATERA UTARA",
+      "region_code": "3309",
+      "zip_code_template": [
+        "22###"
+      ]
+    },
+    {
+      "city_name": "KEPULAUAN MENTAWAI",
+      "region_name": "PROVINSI SUMATERA BARAT",
+      "region_code": "3409",
+      "zip_code_template": [
+        "25###"
+      ]
+    },
+    {
+      "city_name": "KUANTAN SINGINGI",
+      "region_name": "PROVINSI RIAU",
+      "region_code": "3512",
+      "zip_code_template": [
+        "29###"
+      ]
+    },
+    {
+      "city_name": "OGAN KOMERING ULU TIMUR",
+      "region_name": "PROVINSI SUMATERA SELATAN",
+      "region_code": "3615",
+      "zip_code_template": [
+        "32###"
+      ]
+    },
+    {
+      "city_name": "PESAWARAN",
+      "region_name": "PROVINSI LAMPUNG",
+      "region_code": "3909",
+      "zip_code_template": [
+        "35###"
+      ]
+    },
+    {
+      "city_name": "TABALONG",
+      "region_name": "PROVINSI KALIMANTAN SELATAN",
+      "region_code": "5109",
+      "zip_code_template": [
+        "71###"
+      ]
+    },
+    {
+      "city_name": "SEKADAU",
+      "region_name": "PROVINSI KALIMANTAN BARAT",
+      "region_code": "5309",
+      "zip_code_template": [
+        "79###"
+      ]
+    },
+    {
+      "city_name": "PENAJAM PASER UTARA",
+      "region_name": "PROVINSI KALIMANTAN TIMUR",
+      "region_code": "5411",
+      "zip_code_template": [
+        "76###"
+      ]
+    },
+    {
+      "city_name": "PULANG PISAU",
+      "region_name": "PROVINSI KALIMANTAN TENGAH",
+      "region_code": "5809",
+      "zip_code_template": [
+        "73###"
+      ]
+    },
+    {
+      "city_name": "PARIGI MOUTONG",
+      "region_name": "PROVINSI SULAWESI TENGAH",
+      "region_code": "6009",
+      "zip_code_template": [
+        "94###"
+      ]
+    },
+    {
+      "city_name": "BULUKUMBA",
+      "region_name": "PROVINSI SULAWESI SELATAN",
+      "region_code": "6111",
+      "zip_code_template": [
+        "92###"
+      ]
+    },
+    {
+      "city_name": "KEPULAUAN SITARO",
+      "region_name": "PROVINSI SULAWESI UTARA",
+      "region_code": "6211",
+      "zip_code_template": [
+        "95###"
+      ]
+    },
+    {
+      "city_name": "BUTON UTARA",
+      "region_name": "PROVINSI SULAWESI TENGGARA",
+      "region_code": "6910",
+      "zip_code_template": [
+        "93###"
+      ]
+    },
+    {
+      "city_name": "KOTA. BIMA",
+      "region_name": "PROVINSI NUSA TENGGARA BARAT",
+      "region_code": "7192",
+      "zip_code_template": [
+        "84###"
+      ]
+    },
+    {
+      "city_name": "DENPASAR",
+      "region_name": "PROVINSI BALI",
+      "region_code": "7291",
+      "zip_code_template": [
+        "80###"
+      ]
+    },
+    {
+      "city_name": "NGADA",
+      "region_name": "PROVINSI NUSA TENGGARA TIMUR",
+      "region_code": "7409",
+      "zip_code_template": [
+        "86###"
+      ]
+    },
+    {
+      "city_name": "TUAL",
+      "region_name": "PROVINSI MALUKU",
+      "region_code": "8192",
+      "zip_code_template": [
+        "97###"
+      ]
+    },
+    {
+      "city_name": "PUNCAK JAYA",
+      "region_name": "PROVINSI PAPUA",
+      "region_code": "8216",
+      "zip_code_template": [
+        "98###"
+      ]
+    },
+    {
+      "city_name": "SORONG",
+      "region_name": "PROVINSI PAPUA BARAT",
+      "region_code": "8491",
+      "zip_code_template": [
+        "98###"
+      ]
+    },
+    {
+      "city_name": "GARUT",
+      "region_name": "PROPINSI JAWA BARAT",
+      "region_code": "0114",
+      "zip_code_template": [
+        "44###"
+      ]
+    },
+    {
+      "city_name": "PEMALANG",
+      "region_name": "PROV. JAWA TENGAH",
+      "region_code": "0910",
+      "zip_code_template": [
+        "52###"
+      ]
+    },
+    {
+      "city_name": "BANYUWANGI",
+      "region_name": "PROV. JAWA TIMUR",
+      "region_code": "1211",
+      "zip_code_template": [
+        "68###"
+      ]
+    },
+    {
+      "city_name": "BUNGO, KAB",
+      "region_name": "PROVINSI JAMBI",
+      "region_code": "3112",
+      "zip_code_template": [
+        "37###"
+      ]
+    },
+    {
+      "city_name": "ACEH JEUMPA/BIREUEN",
+      "region_name": "PROVINSI NAD",
+      "region_code": "3210",
+      "zip_code_template": [
+        "24###"
+      ]
+    },
+    {
+      "city_name": "TAPANULI SELATAN",
+      "region_name": "PROVINSI SUMATERA UTARA",
+      "region_code": "3310",
+      "zip_code_template": [
+        "22###"
+      ]
+    },
+    {
+      "city_name": "PASAMAN BARAT",
+      "region_name": "PROVINSI SUMATERA BARAT",
+      "region_code": "3410",
+      "zip_code_template": [
+        "26###"
+      ]
+    },
+    {
+      "city_name": "PEKANBARU",
+      "region_name": "PROVINSI RIAU",
+      "region_code": "3591",
+      "zip_code_template": [
+        "28###"
+      ]
+    },
+    {
+      "city_name": "OGAN ILIR",
+      "region_name": "PROVINSI SUMATERA SELATAN",
+      "region_code": "3616",
+      "zip_code_template": [
+        "30###"
+      ]
+    },
+    {
+      "city_name": "BANDAR LAMPUNG",
+      "region_name": "PROVINSI LAMPUNG",
+      "region_code": "3991",
+      "zip_code_template": [
+        "35###"
+      ]
+    },
+    {
+      "city_name": "TANAH BUMBU",
+      "region_name": "PROVINSI KALIMANTAN SELATAN",
+      "region_code": "5110",
+      "zip_code_template": [
+        "72###"
+      ]
+    },
+    {
+      "city_name": "MELAWI",
+      "region_name": "PROVINSI KALIMANTAN BARAT",
+      "region_code": "5310",
+      "zip_code_template": [
+        "79###"
+      ]
+    },
+    {
+      "city_name": "TANA TIDUNG",
+      "region_name": "PROVINSI KALIMANTAN TIMUR",
+      "region_code": "5412",
+      "zip_code_template": [
+        "77###"
+      ]
+    },
+    {
+      "city_name": "SERUYAN",
+      "region_name": "PROVINSI KALIMANTAN TENGAH",
+      "region_code": "5810",
+      "zip_code_template": [
+        "73###"
+      ]
+    },
+    {
+      "city_name": "PALU",
+      "region_name": "PROVINSI SULAWESI TENGAH",
+      "region_code": "6091",
+      "zip_code_template": [
+        "94###"
+      ]
+    },
+    {
+      "city_name": "BANTAENG",
+      "region_name": "PROVINSI SULAWESI SELATAN",
+      "region_code": "6112",
+      "zip_code_template": [
+        "92###"
+      ]
+    },
+    {
+      "city_name": "MENADO",
+      "region_name": "PROVINSI SULAWESI UTARA",
+      "region_code": "6291",
+      "zip_code_template": [
+        "95###"
+      ]
+    },
+    {
+      "city_name": "KONAWE UTARA",
+      "region_name": "PROVINSI SULAWESI TENGGARA",
+      "region_code": "6911",
+      "zip_code_template": [
+        "93###"
+      ]
+    },
+    {
+      "city_name": "MANGGARAI",
+      "region_name": "PROVINSI NUSA TENGGARA TIMUR",
+      "region_code": "7410",
+      "zip_code_template": [
+        "86###"
+      ]
+    },
+    {
+      "city_name": "SARMI",
+      "region_name": "PROVINSI PAPUA",
+      "region_code": "8217",
+      "zip_code_template": [
+        "99###"
+      ]
+    },
+    {
+      "city_name": "CIAMIS",
+      "region_name": "PROPINSI JAWA BARAT",
+      "region_code": "0115",
+      "zip_code_template": [
+        "46###"
+      ]
+    },
+    {
+      "city_name": "JEPARA",
+      "region_name": "PROV. JAWA TENGAH",
+      "region_code": "0911",
+      "zip_code_template": [
+        "59###"
+      ]
+    },
+    {
+      "city_name": "JEMBER",
+      "region_name": "PROV. JAWA TIMUR",
+      "region_code": "1212",
+      "zip_code_template": [
+        "68###"
+      ]
+    },
+    {
+      "city_name": "JAMBI",
+      "region_name": "PROVINSI JAMBI",
+      "region_code": "3191",
+      "zip_code_template": [
+        "36###"
+      ]
+    },
+    {
+      "city_name": "ACEH TAMIANG",
+      "region_name": "PROVINSI NAD",
+      "region_code": "3211",
+      "zip_code_template": [
+        "23###"
+      ]
+    },
+    {
+      "city_name": "NIAS",
+      "region_name": "PROVINSI SUMATERA UTARA",
+      "region_code": "3311",
+      "zip_code_template": [
+        "22###"
+      ]
+    },
+    {
+      "city_name": "DHARMASRAYA",
+      "region_name": "PROVINSI SUMATERA BARAT",
+      "region_code": "3411",
+      "zip_code_template": [
+        "27###"
+      ]
+    },
+    {
+      "city_name": "DUMAI",
+      "region_name": "PROVINSI RIAU",
+      "region_code": "3592",
+      "zip_code_template": [
+        "28###"
+      ]
+    },
+    {
+      "city_name": "EMPAT LAWANG",
+      "region_name": "PROVINSI SUMATERA SELATAN",
+      "region_code": "3617",
+      "zip_code_template": [
+        "31###"
+      ]
+    },
+    {
+      "city_name": "METRO",
+      "region_name": "PROVINSI LAMPUNG",
+      "region_code": "3992",
+      "zip_code_template": [
+        "34###"
+      ]
+    },
+    {
+      "city_name": "BALANGAN",
+      "region_name": "PROVINSI KALIMANTAN SELATAN",
+      "region_code": "5111",
+      "zip_code_template": [
+        "71###"
+      ]
+    },
+    {
+      "city_name": "KAYONG UTARA",
+      "region_name": "PROVINSI KALIMANTAN BARAT",
+      "region_code": "5311",
+      "zip_code_template": [
+        "78###"
+      ]
+    },
+    {
+      "city_name": "SAMARINDA",
+      "region_name": "PROVINSI KALIMANTAN TIMUR",
+      "region_code": "5491",
+      "zip_code_template": [
+        "75###"
+      ]
+    },
+    {
+      "city_name": "KATINGAN",
+      "region_name": "PROVINSI KALIMANTAN TENGAH",
+      "region_code": "5811",
+      "zip_code_template": [
+        "74###"
+      ]
+    },
+    {
+      "city_name": "JENEPONTO",
+      "region_name": "PROVINSI SULAWESI SELATAN",
+      "region_code": "6113",
+      "zip_code_template": [
+        "92###"
+      ]
+    },
+    {
+      "city_name": "KOTAMOBAGU",
+      "region_name": "PROVINSI SULAWESI UTARA",
+      "region_code": "6292",
+      "zip_code_template": [
+        "95###"
+      ]
+    },
+    {
+      "city_name": "BAU-BAU",
+      "region_name": "PROVINSI SULAWESI TENGGARA",
+      "region_code": "6990",
+      "zip_code_template": [
+        "93###"
+      ]
+    },
+    {
+      "city_name": "SUMBA TIMUR",
+      "region_name": "PROVINSI NUSA TENGGARA TIMUR",
+      "region_code": "7411",
+      "zip_code_template": [
+        "87###"
+      ]
+    },
+    {
+      "city_name": "KEEROM",
+      "region_name": "PROVINSI PAPUA",
+      "region_code": "8218",
+      "zip_code_template": [
+        "99###"
+      ]
+    },
+    {
+      "city_name": "CIREBON",
+      "region_name": "PROPINSI JAWA BARAT",
+      "region_code": "0116",
+      "zip_code_template": [
+        "45###"
+      ]
+    },
+    {
+      "city_name": "REMBANG",
+      "region_name": "PROV. JAWA TENGAH",
+      "region_code": "0912",
+      "zip_code_template": [
+        "59###"
+      ]
+    },
+    {
+      "city_name": "MALANG",
+      "region_name": "PROV. JAWA TIMUR",
+      "region_code": "1213",
+      "zip_code_template": [
+        "65###"
+      ]
+    },
+    {
+      "city_name": "GAYO LUWES",
+      "region_name": "PROVINSI NAD",
+      "region_code": "3212",
+      "zip_code_template": [
+        "24###"
+      ]
+    },
+    {
+      "city_name": "TOBA SAMOSIR",
+      "region_name": "PROVINSI SUMATERA UTARA",
+      "region_code": "3313",
+      "zip_code_template": [
+        "22###"
+      ]
+    },
+    {
+      "city_name": "SOLOK",
+      "region_name": "PROVINSI SUMATERA BARAT",
+      "region_code": "3412",
+      "zip_code_template": [
+        "27###"
+      ]
+    },
+    {
+      "city_name": "PALEMBANG",
+      "region_name": "PROVINSI SUMATERA SELATAN",
+      "region_code": "3691",
+      "zip_code_template": [
+        "30###"
+      ]
+    },
+    {
+      "city_name": "BANJARMASIN",
+      "region_name": "PROVINSI KALIMANTAN SELATAN",
+      "region_code": "5191",
+      "zip_code_template": [
+        "70###"
+      ]
+    },
+    {
+      "city_name": "KUBU RAYA",
+      "region_name": "PROVINSI KALIMANTAN BARAT",
+      "region_code": "5312",
+      "zip_code_template": [
+        "78###"
+      ]
+    },
+    {
+      "city_name": "BALIKPAPAN",
+      "region_name": "PROVINSI KALIMANTAN TIMUR",
+      "region_code": "5492",
+      "zip_code_template": [
+        "76###"
+      ]
+    },
+    {
+      "city_name": "SUKAMARA",
+      "region_name": "PROVINSI KALIMANTAN TENGAH",
+      "region_code": "5812",
+      "zip_code_template": [
+        "73###"
+      ]
+    },
+    {
+      "city_name": "SELAYAR",
+      "region_name": "PROVINSI SULAWESI SELATAN",
+      "region_code": "6114",
+      "zip_code_template": [
+        "92###"
+      ]
+    },
+    {
+      "city_name": "BITUNG",
+      "region_name": "PROVINSI SULAWESI UTARA",
+      "region_code": "6293",
+      "zip_code_template": [
+        "95###"
+      ]
+    },
+    {
+      "city_name": "KENDARI",
+      "region_name": "PROVINSI SULAWESI TENGGARA",
+      "region_code": "6991",
+      "zip_code_template": [
+        "93###"
+      ]
+    },
+    {
+      "city_name": "SUMBA BARAT",
+      "region_name": "PROVINSI NUSA TENGGARA TIMUR",
+      "region_code": "7412",
+      "zip_code_template": [
+        "87###"
+      ]
+    },
+    {
+      "city_name": "PEGUNUNGAN BINTANG",
+      "region_name": "PROVINSI PAPUA",
+      "region_code": "8221",
+      "zip_code_template": [
+        "99###"
+      ]
+    },
+    {
+      "city_name": "KUNINGAN",
+      "region_name": "PROPINSI JAWA BARAT",
+      "region_code": "0117",
+      "zip_code_template": [
+        "45###"
+      ]
+    },
+    {
+      "city_name": "BLORA",
+      "region_name": "PROV. JAWA TENGAH",
+      "region_code": "0913",
+      "zip_code_template": [
+        "58###"
+      ]
+    },
+    {
+      "city_name": "PASURUAN",
+      "region_name": "PROV. JAWA TIMUR",
+      "region_code": "1214",
+      "zip_code_template": [
+        "67###"
+      ]
+    },
+    {
+      "city_name": "ACEH BARAT DAYA",
+      "region_name": "PROVINSI NAD",
+      "region_code": "3213",
+      "zip_code_template": [
+        "24###"
+      ]
+    },
+    {
+      "city_name": "MANDAILING NATAL",
+      "region_name": "PROVINSI SUMATERA UTARA",
+      "region_code": "3314",
+      "zip_code_template": [
+        "22###"
+      ]
+    },
+    {
+      "city_name": "BUKITTINGGI",
+      "region_name": "PROVINSI SUMATERA BARAT",
+      "region_code": "3491",
+      "zip_code_template": [
+        "26###"
+      ]
+    },
+    {
+      "city_name": "LUBUKLINGGAU",
+      "region_name": "PROVINSI SUMATERA SELATAN",
+      "region_code": "3693",
+      "zip_code_template": [
+        "31###"
+      ]
+    },
+    {
+      "city_name": "BANJARBARU",
+      "region_name": "PROVINSI KALIMANTAN SELATAN",
+      "region_code": "5192",
+      "zip_code_template": [
+        "70###"
+      ]
+    },
+    {
+      "city_name": "PONTIANAK",
+      "region_name": "PROVINSI KALIMANTAN BARAT",
+      "region_code": "5391",
+      "zip_code_template": [
+        "78###"
+      ]
+    },
+    {
+      "city_name": "TARAKAN",
+      "region_name": "PROVINSI KALIMANTAN TIMUR",
+      "region_code": "5493",
+      "zip_code_template": [
+        "77###"
+      ]
+    },
+    {
+      "city_name": "LAMANDAU",
+      "region_name": "PROVINSI KALIMANTAN TENGAH",
+      "region_code": "5813",
+      "zip_code_template": [
+        "74###"
+      ]
+    },
+    {
+      "city_name": "TAKALAR",
+      "region_name": "PROVINSI SULAWESI SELATAN",
+      "region_code": "6115",
+      "zip_code_template": [
+        "92###"
+      ]
+    },
+    {
+      "city_name": "TOMOHON",
+      "region_name": "PROVINSI SULAWESI UTARA",
+      "region_code": "6294",
+      "zip_code_template": [
+        "95###"
+      ]
+    },
+    {
+      "city_name": "LEMBATA",
+      "region_name": "PROVINSI NUSA TENGGARA TIMUR",
+      "region_code": "7413",
+      "zip_code_template": [
+        "86###"
+      ]
+    },
+    {
+      "city_name": "YAHUKIMO",
+      "region_name": "PROVINSI PAPUA",
+      "region_code": "8222",
+      "zip_code_template": [
+        "99###"
+      ]
+    },
+    {
+      "city_name": "INDRAMAYU",
+      "region_name": "PROPINSI JAWA BARAT",
+      "region_code": "0118",
+      "zip_code_template": [
+        "45###"
+      ]
+    },
+    {
+      "city_name": "BANYUMAS",
+      "region_name": "PROV. JAWA TENGAH",
+      "region_code": "0914",
+      "zip_code_template": [
+        "53###"
+      ]
+    },
+    {
+      "city_name": "PROBOLINGGO",
+      "region_name": "PROV. JAWA TIMUR",
+      "region_code": "1215",
+      "zip_code_template": [
+        "67###"
+      ]
+    },
+    {
+      "city_name": "ACEH JAYA",
+      "region_name": "PROVINSI NAD",
+      "region_code": "3214",
+      "zip_code_template": [
+        "23###"
+      ]
+    },
+    {
+      "city_name": "NIAS SELATAN",
+      "region_name": "PROVINSI SUMATERA UTARA",
+      "region_code": "3315",
+      "zip_code_template": [
+        "22###"
+      ]
+    },
+    {
+      "city_name": "PADANG",
+      "region_name": "PROVINSI SUMATERA BARAT",
+      "region_code": "3492",
+      "zip_code_template": [
+        "25###"
+      ]
+    },
+    {
+      "city_name": "PRABUMULIH",
+      "region_name": "PROVINSI SUMATERA SELATAN",
+      "region_code": "3694",
+      "zip_code_template": [
+        "31###"
+      ]
+    },
+    {
+      "city_name": "SINGKAWANG",
+      "region_name": "PROVINSI KALIMANTAN BARAT",
+      "region_code": "5392",
+      "zip_code_template": [
+        "79###"
+      ]
+    },
+    {
+      "city_name": "BONTANG",
+      "region_name": "PROVINSI KALIMANTAN TIMUR",
+      "region_code": "5494",
+      "zip_code_template": [
+        "75###"
+      ]
+    },
+    {
+      "city_name": "PALANGKARAYA",
+      "region_name": "PROVINSI KALIMANTAN TENGAH",
+      "region_code": "5892",
+      "zip_code_template": [
+        "73###"
+      ]
+    },
+    {
+      "city_name": "BARRU",
+      "region_name": "PROVINSI SULAWESI SELATAN",
+      "region_code": "6116",
+      "zip_code_template": [
+        "90###"
+      ]
+    },
+    {
+      "city_name": "ROTE",
+      "region_name": "PROVINSI NUSA TENGGARA TIMUR",
+      "region_code": "7414",
+      "zip_code_template": [
+        "85###"
+      ]
+    },
+    {
+      "city_name": "TOLIKARA",
+      "region_name": "PROVINSI PAPUA",
+      "region_code": "8223",
+      "zip_code_template": [
+        "99###"
+      ]
+    },
+    {
+      "city_name": "MAJALENGKA",
+      "region_name": "PROPINSI JAWA BARAT",
+      "region_code": "0119",
+      "zip_code_template": [
+        "45###"
+      ]
+    },
+    {
+      "city_name": "CILACAP",
+      "region_name": "PROV. JAWA TENGAH",
+      "region_code": "0915",
+      "zip_code_template": [
+        "53###"
+      ]
+    },
+    {
+      "city_name": "LUMAJANG",
+      "region_name": "PROV. JAWA TIMUR",
+      "region_code": "1216",
+      "zip_code_template": [
+        "67###"
+      ]
+    },
+    {
+      "city_name": "NAGAN RAYA",
+      "region_name": "PROVINSI NAD",
+      "region_code": "3215",
+      "zip_code_template": [
+        "23###"
+      ]
+    },
+    {
+      "city_name": "HUMBANG HASUNDUTAN",
+      "region_name": "PROVINSI SUMATERA UTARA",
+      "region_code": "3316",
+      "zip_code_template": [
+        "22###"
+      ]
+    },
+    {
+      "city_name": "SAWAHLUNTO",
+      "region_name": "PROVINSI SUMATERA BARAT",
+      "region_code": "3493",
+      "zip_code_template": [
+        "27###"
+      ]
+    },
+    {
+      "city_name": "PAGAR ALAM",
+      "region_name": "PROVINSI SUMATERA SELATAN",
+      "region_code": "3697",
+      "zip_code_template": [
+        "31###"
+      ]
+    },
+    {
+      "city_name": "SIDENRENG RAPPANG",
+      "region_name": "PROVINSI SULAWESI SELATAN",
+      "region_code": "6117",
+      "zip_code_template": [
+        "91###"
+      ]
+    },
+    {
+      "city_name": "MANGGARAI BARAT",
+      "region_name": "PROVINSI NUSA TENGGARA TIMUR",
+      "region_code": "7415",
+      "zip_code_template": [
+        "86###"
+      ]
+    },
+    {
+      "city_name": "WAROPEN",
+      "region_name": "PROVINSI PAPUA",
+      "region_code": "8224",
+      "zip_code_template": [
+        "98###"
+      ]
+    },
+    {
+      "city_name": "SUBANG",
+      "region_name": "PROPINSI JAWA BARAT",
+      "region_code": "0121",
+      "zip_code_template": [
+        "41###"
+      ]
+    },
+    {
+      "city_name": "PURBALINGGA",
+      "region_name": "PROV. JAWA TENGAH",
+      "region_code": "0916",
+      "zip_code_template": [
+        "53###"
+      ]
+    },
+    {
+      "city_name": "KEDIRI",
+      "region_name": "PROV. JAWA TIMUR",
+      "region_code": "1217",
+      "zip_code_template": [
+        "64###"
+      ]
+    },
+    {
+      "city_name": "ACEH SIMEULUE",
+      "region_name": "PROVINSI NAD",
+      "region_code": "3216",
+      "zip_code_template": [
+        "23###"
+      ]
+    },
+    {
+      "city_name": "PAKPAK BARAT",
+      "region_name": "PROVINSI SUMATERA UTARA",
+      "region_code": "3317",
+      "zip_code_template": [
+        "22###"
+      ]
+    },
+    {
+      "city_name": "PADANG PANJANG",
+      "region_name": "PROVINSI SUMATERA BARAT",
+      "region_code": "3494",
+      "zip_code_template": [
+        "27###"
+      ]
+    },
+    {
+      "city_name": "PANGKAJENE KEPULAUAN",
+      "region_name": "PROVINSI SULAWESI SELATAN",
+      "region_code": "6118",
+      "zip_code_template": [
+        "90###"
+      ]
+    },
+    {
+      "city_name": "SUMBA TENGAH",
+      "region_name": "PROVINSI NUSA TENGGARA TIMUR",
+      "region_code": "7416",
+      "zip_code_template": [
+        "87###"
+      ]
+    },
+    {
+      "city_name": "BOVEN DIGOEL",
+      "region_name": "PROVINSI PAPUA",
+      "region_code": "8226",
+      "zip_code_template": [
+        "99###"
+      ]
+    },
+    {
+      "city_name": "BANDUNG BARAT",
+      "region_name": "PROPINSI JAWA BARAT",
+      "region_code": "0122",
+      "zip_code_template": [
+        "40###"
+      ]
+    },
+    {
+      "city_name": "BANJARNEGARA",
+      "region_name": "PROV. JAWA TENGAH",
+      "region_code": "0917",
+      "zip_code_template": [
+        "53###"
+      ]
+    },
+    {
+      "city_name": "NGANJUK",
+      "region_name": "PROV. JAWA TIMUR",
+      "region_code": "1218",
+      "zip_code_template": [
+        "64###"
+      ]
+    },
+    {
+      "city_name": "BENERMERIAH",
+      "region_name": "PROVINSI NAD",
+      "region_code": "3217",
+      "zip_code_template": [
+        "24###"
+      ]
+    },
+    {
+      "city_name": "SAMOSIR, KAB",
+      "region_name": "PROVINSI SUMATERA UTARA",
+      "region_code": "3318",
+      "zip_code_template": [
+        "22###"
+      ]
+    },
+    {
+      "city_name": "SOLOK",
+      "region_name": "PROVINSI SUMATERA BARAT",
+      "region_code": "3495",
+      "zip_code_template": [
+        "27###"
+      ]
+    },
+    {
+      "city_name": "WATANSOPPENG",
+      "region_name": "PROVINSI SULAWESI SELATAN",
+      "region_code": "6119",
+      "zip_code_template": [
+        "90###"
+      ]
+    },
+    {
+      "city_name": "SUMBA BARAT DAYA",
+      "region_name": "PROVINSI NUSA TENGGARA TIMUR",
+      "region_code": "7417",
+      "zip_code_template": [
+        "87###"
+      ]
+    },
+    {
+      "city_name": "MAPPI",
+      "region_name": "PROVINSI PAPUA",
+      "region_code": "8227",
+      "zip_code_template": [
+        "99###"
+      ]
+    },
+    {
+      "city_name": "BANJAR",
+      "region_name": "PROPINSI JAWA BARAT",
+      "region_code": "0180",
+      "zip_code_template": [
+        "46###"
+      ]
+    },
+    {
+      "city_name": "MAGELANG",
+      "region_name": "PROV. JAWA TENGAH",
+      "region_code": "0918",
+      "zip_code_template": [
+        "56###"
+      ]
+    },
+    {
+      "city_name": "TULUNGAGUNG",
+      "region_name": "PROV. JAWA TIMUR",
+      "region_code": "1219",
+      "zip_code_template": [
+        "66###"
+      ]
+    },
+    {
+      "city_name": "PIDIE JAYA",
+      "region_name": "PROVINSI NAD",
+      "region_code": "3218",
+      "zip_code_template": [
+        "24###"
+      ]
+    },
+    {
+      "city_name": "SERDANG BEDAGAI",
+      "region_name": "PROVINSI SUMATERA UTARA",
+      "region_code": "3319",
+      "zip_code_template": [
+        "20###"
+      ]
+    },
+    {
+      "city_name": "PAYAKUMBUH",
+      "region_name": "PROVINSI SUMATERA BARAT",
+      "region_code": "3496",
+      "zip_code_template": [
+        "26###"
+      ]
+    },
+    {
+      "city_name": "ENREKANG",
+      "region_name": "PROVINSI SULAWESI SELATAN",
+      "region_code": "6121",
+      "zip_code_template": [
+        "91###"
+      ]
+    },
+    {
+      "city_name": "MANGGARAI TIMUR",
+      "region_name": "PROVINSI NUSA TENGGARA TIMUR",
+      "region_code": "7418",
+      "zip_code_template": [
+        "86###"
+      ]
+    },
+    {
+      "city_name": "ASMAT",
+      "region_name": "PROVINSI PAPUA",
+      "region_code": "8228",
+      "zip_code_template": [
+        "99###"
+      ]
+    },
+    {
+      "city_name": "BANDUNG",
+      "region_name": "PROPINSI JAWA BARAT",
+      "region_code": "0191",
+      "zip_code_template": [
+        "40###"
+      ]
+    },
+    {
+      "city_name": "TEMANGGUNG",
+      "region_name": "PROV. JAWA TENGAH",
+      "region_code": "0919",
+      "zip_code_template": [
+        "56###"
+      ]
+    },
+    {
+      "city_name": "TRENGGALEK",
+      "region_name": "PROV. JAWA TIMUR",
+      "region_code": "1220",
+      "zip_code_template": [
+        "66###"
+      ]
+    },
+    {
+      "city_name": "SUBULUSSALAM",
+      "region_name": "PROVINSI NAD",
+      "region_code": "3219",
+      "zip_code_template": [
+        "24###"
+      ]
+    },
+    {
+      "city_name": "ANGKOLA SIPIROK",
+      "region_name": "PROVINSI SUMATERA UTARA",
+      "region_code": "3320",
+      "zip_code_template": [
+        "22###"
+      ]
+    },
+    {
+      "city_name": "PARIAMAN",
+      "region_name": "PROVINSI SUMATERA BARAT",
+      "region_code": "3497",
+      "zip_code_template": [
+        "25###"
+      ]
+    },
+    {
+      "city_name": "LUWU SELATAN",
+      "region_name": "PROVINSI SULAWESI SELATAN",
+      "region_code": "6122",
+      "zip_code_template": [
+        "91###"
+      ]
+    },
+    {
+      "city_name": "NAGEKEO",
+      "region_name": "PROVINSI NUSA TENGGARA TIMUR",
+      "region_code": "7419",
+      "zip_code_template": [
+        "86###"
+      ]
+    },
+    {
+      "city_name": "SUPIORI",
+      "region_name": "PROVINSI PAPUA",
+      "region_code": "8231",
+      "zip_code_template": [
+        "98###"
+      ]
+    },
+    {
+      "city_name": "BOGOR",
+      "region_name": "PROPINSI JAWA BARAT",
+      "region_code": "0192",
+      "zip_code_template": [
+        "16###"
+      ]
+    },
+    {
+      "city_name": "WONOSOBO",
+      "region_name": "PROV. JAWA TENGAH",
+      "region_code": "0920",
+      "zip_code_template": [
+        "56###"
+      ]
+    },
+    {
+      "city_name": "BLITAR",
+      "region_name": "PROV. JAWA TIMUR",
+      "region_code": "1221",
+      "zip_code_template": [
+        "66###"
+      ]
+    },
+    {
+      "city_name": "BANDA ACEH",
+      "region_name": "PROVINSI NAD",
+      "region_code": "3291",
+      "zip_code_template": [
+        "23###"
+      ]
+    },
+    {
+      "city_name": "BATU BARA",
+      "region_name": "PROVINSI SUMATERA UTARA",
+      "region_code": "3321",
+      "zip_code_template": [
+        "21###"
+      ]
+    },
+    {
+      "city_name": "LUWU UTARA",
+      "region_name": "PROVINSI SULAWESI SELATAN",
+      "region_code": "6124",
+      "zip_code_template": [
+        "91###"
+      ]
+    },
+    {
+      "city_name": "KUPANG",
+      "region_name": "PROVINSI NUSA TENGGARA TIMUR",
+      "region_code": "7491",
+      "zip_code_template": [
+        "85###"
+      ]
+    },
+    {
+      "city_name": "MAMBERAMO RAYA",
+      "region_name": "PROVINSI PAPUA",
+      "region_code": "8232",
+      "zip_code_template": [
+        "98###",
+        "99###"
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 Isaac A. Nugroho
+ * Copyright 2018 Isaac A. Nugroho.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -26,9 +26,9 @@ public class DateFactory {
   private final FakerFactory factory;
   private final Gson gson;
 
-  public DateFactory(FakerFactory factory, Gson gson) {
+  public DateFactory(FakerFactory factory) {
     this.factory = factory;
-    this.gson = gson;
+    this.gson = factory.getGson();
   }
 
   public LocalDate generate(final LocalDate lowerBound, final LocalDate upperBound) {

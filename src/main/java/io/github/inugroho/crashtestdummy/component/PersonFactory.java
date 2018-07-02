@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 Isaac A. Nugroho
+ * Copyright 2018 Isaac A. Nugroho.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -95,11 +95,11 @@ public class PersonFactory {
     this.upperRatio = upperRatio;
   }
 
-  public PersonFactory(FakerFactory factory, NameFactory nameFactory, DateFactory dateFactory, EmailFactory emailFactory) {
+  public PersonFactory(FakerFactory factory) {
     this.factory = factory;
-    this.nameFactory = nameFactory;
-    this.dateFactory = dateFactory;
-    this.emailFactory = emailFactory;
+    this.nameFactory = factory.getNameFactory();
+    this.dateFactory = factory.getDateFactory();
+    this.emailFactory = factory.getEmailFactory();
   }
 
   public FakePerson generate() {

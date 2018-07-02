@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 Isaac A. Nugroho
+ * Copyright 2018 Isaac A. Nugroho.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -34,6 +34,8 @@ public class NameSeeder {
   private List<String> maleMiddleNames = new ArrayList<>();
   @SerializedName("male_last_name")
   private List<String> maleLastNames = new ArrayList<>();
+  @SerializedName("family_name")
+  private List<String> familyNames = new ArrayList<>();
 
   public List<String> getFemaleFirstNames() {
     return femaleFirstNames;
@@ -81,5 +83,13 @@ public class NameSeeder {
 
   public void setMaleLastNames(List<String> maleLastNames) {
     this.maleLastNames = maleLastNames;
+  }
+
+  public List<String> getFamilyNames() {
+    return familyNames;
+  }
+
+  public void setFamilyNames(List<String> familyNames) {
+    this.familyNames = familyNames;
   }
 }
