@@ -18,4 +18,6 @@ package io.github.inugroho.crashtestdummy;
 public class FakerConstants {
   public static final String DEFAULT_FAKER_LOCALE = "id_ID";
   public static final String BLANK = "";
+
+  private FakerConstants() { }
 }

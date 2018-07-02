@@ -17,7 +17,6 @@ package io.github.inugroho.crashtestdummy.component;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
 import com.google.gson.JsonStreamParser;
 import io.github.inugroho.crashtestdummy.FakerFactory;
 import io.github.inugroho.crashtestdummy.component.seeder.EmailDomainSeeder;
@@ -35,7 +34,7 @@ public class EmailFactory {
 
   private final HashMap<String, EmailDomainSeeder> emailDomainSeeders = new HashMap<>();
 
-  private final static String[] emailSeparators = {
+  private static final String[] emailSeparators = {
       "",
       ".",
       "_"
@@ -47,13 +46,13 @@ public class EmailFactory {
   }
 
   private EmailDomainSeeder loadSeed(String locale) {
-    return emailDomainSeeders.computeIfAbsent(factory.getLocale(), loc -> {
+    return emailDomainSeeders.computeIfAbsent(locale, loc -> {
       EmailDomainSeeder emailDomainSeeder = new EmailDomainSeeder();
 
       JsonStreamParser parser = null;
       try {
         ClassLoader classLoader = getClass().getClassLoader();
-        parser = new JsonStreamParser(new FileReader(Objects.requireNonNull(classLoader.getResource("seeders/" + locale + "/email_domain.json")).getFile()));
+        parser = new JsonStreamParser(new FileReader(Objects.requireNonNull(classLoader.getResource("seeders/" + loc + "/email_domain.json")).getFile()));
       }
       catch (Exception e) {
         e.printStackTrace();
@@ -61,7 +60,6 @@ public class EmailFactory {
 
       if (parser != null && parser.hasNext()) {
         JsonElement element = parser.next();
-        JsonObject object = element.getAsJsonObject();
         emailDomainSeeder = gson.fromJson(element, EmailDomainSeeder.class);
       }
       return emailDomainSeeder;

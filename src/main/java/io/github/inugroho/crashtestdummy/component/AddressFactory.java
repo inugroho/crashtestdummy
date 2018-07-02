@@ -18,7 +18,6 @@ package io.github.inugroho.crashtestdummy.component;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
 import com.google.gson.JsonStreamParser;
 import io.github.inugroho.crashtestdummy.FakerFactory;
 import io.github.inugroho.crashtestdummy.component.seeder.AddressSeeder;
@@ -47,7 +46,7 @@ public class AddressFactory {
   }
 
   private AddressSeeder loadSeed(String locale) {
-    return seeders.computeIfAbsent(factory.getLocale(), loc -> {
+    return seeders.computeIfAbsent(locale, loc -> {
       AddressSeeder addressSeeder = new AddressSeeder();
 
       JsonStreamParser parser = null;
@@ -61,7 +60,6 @@ public class AddressFactory {
 
       if (parser != null && parser.hasNext()) {
         JsonElement element = parser.next();
-        JsonObject object = element.getAsJsonObject();
         addressSeeder = gson.fromJson(element, AddressSeeder.class);
       }
       return addressSeeder;

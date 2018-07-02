@@ -30,7 +30,7 @@ public class RegionSeed {
   @SerializedName("region_code")
   private String regionCode = FakerConstants.BLANK;
   @SerializedName("zip_code_template")
-  private List<String> ZipCodeTemplates = new ArrayList<>();
+  private List<String> zipCodeTemplates = new ArrayList<>();
 
   public String getCityName() {
     return cityName;
@@ -57,10 +57,10 @@ public class RegionSeed {
   }
 
   public List<String> getZipCodeTemplates() {
-    return ZipCodeTemplates;
+    return zipCodeTemplates;
   }
 
   public void setZipCodeTemplates(List<String> zipCodeTemplates) {
-    ZipCodeTemplates = zipCodeTemplates;
+    this.zipCodeTemplates = zipCodeTemplates;
   }
 }

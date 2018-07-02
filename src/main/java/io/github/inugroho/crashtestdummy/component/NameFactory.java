@@ -17,7 +17,6 @@ package io.github.inugroho.crashtestdummy.component;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
 import com.google.gson.JsonStreamParser;
 import io.github.inugroho.crashtestdummy.FakerFactory;
 import io.github.inugroho.crashtestdummy.component.seeder.NameSeeder;
@@ -42,7 +41,7 @@ public class NameFactory {
   }
 
   private NameSeeder loadSeed(String locale) {
-    return seeders.computeIfAbsent(factory.getLocale(), loc -> {
+    return seeders.computeIfAbsent(locale, loc -> {
       NameSeeder nameSeeder = new NameSeeder();
 
       JsonStreamParser parser = null;
@@ -56,7 +55,6 @@ public class NameFactory {
 
       if (parser != null && parser.hasNext()) {
         JsonElement element = parser.next();
-        JsonObject object = element.getAsJsonObject();
         nameSeeder = gson.fromJson(element, NameSeeder.class);
       }
       return nameSeeder;

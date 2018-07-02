@@ -21,6 +21,8 @@ import java.util.Random;
 public class ThreadedRandom {
   private static ThreadLocal<Random> randomGenerator = null;
 
+  private ThreadedRandom() { }
+
   public static void seed(Long seed) {
     initialize(seed);
   }
