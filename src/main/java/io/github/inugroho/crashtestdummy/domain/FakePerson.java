@@ -103,4 +103,18 @@ public class FakePerson {
     this.lastName = name.getLastName();
     this.gender = name.getGender();
   }
+
+  public String getFullName() {
+    StringBuilder sb = new StringBuilder();
+    if (!firstName.isEmpty()) {
+      sb.append(firstName).append(" ");
+    }
+    if (!middleName.isEmpty()) {
+      sb.append(middleName).append(" ");
+    }
+    if (!lastName.isEmpty()) {
+      sb.append(lastName);
+    }
+    return sb.toString().trim();
+  }
 }

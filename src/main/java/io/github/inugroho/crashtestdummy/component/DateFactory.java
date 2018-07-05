@@ -18,8 +18,11 @@ package io.github.inugroho.crashtestdummy.component;
 import com.google.gson.Gson;
 import io.github.inugroho.crashtestdummy.FakerFactory;
 
+import java.time.Duration;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
+import java.time.temporal.Temporal;
+import java.time.temporal.TemporalUnit;
 
 @SuppressWarnings("unused")
 public class DateFactory {
